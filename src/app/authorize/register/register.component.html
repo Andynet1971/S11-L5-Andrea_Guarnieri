@@ -1,0 +1,34 @@
+<div class="col-6">
+  <form class="form-control ms-5">
+    <input
+      name="firstName"
+      type="text"
+      [(ngModel)]="newUser.firstName"
+      placeholder="Nome"
+      class="form-control"
+    />
+    <input
+      name="lastName"
+      type="text"
+      [(ngModel)]="newUser.lastName"
+      placeholder="Cognome"
+      class="form-control mt-3"
+    />
+
+    <input
+      name="email"
+      type="email"
+      [(ngModel)]="newUser.email"
+      placeholder="email"
+      class="form-control mt-3"
+    />
+    <input
+      name="password"
+      type="password"
+      [(ngModel)]="newUser.password"
+      placeholder="password"
+      class="form-control mt-3"
+    />
+    <button (click)="register()" class="btn btn-primary mt-3">Accedi</button>
+  </form>
+</div>

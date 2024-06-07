@@ -1,0 +1,19 @@
+<div class="col-6">
+  <form class="form-control">
+    <input
+      name="email"
+      [(ngModel)]="authData.email"
+      type="email"
+      placeholder="email"
+      class="form-control"
+    />
+    <input
+      name="password"
+      [(ngModel)]="authData.password"
+      type="password"
+      placeholder="password"
+      class="form-control mt-3"
+    />
+    <button (click)="login()" class="btn btn-primary mt-3">Accedi</button>
+  </form>
+</div>

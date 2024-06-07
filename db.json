@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "email": "andreag@mail.com",
+      "password": "$2a$10$BAEYL2p4mObeGdNtXoCGGOL5Mph21dPvxdwRE0mOWH/AURjTlH2lK",
+      "firstName": "andrea",
+      "lastName": "guarnieri",
+      "id": 1
+    },
+    {
+      "email": "mariorossi@mail.com",
+      "password": "$2a$10$bU6NhCmSBG6obqArKw6lDO0631QAnb41DF6TFYSPWmm1IWFNj58ye",
+      "firstName": "mario",
+      "lastName": "rossi",
+      "id": 2
+    },
+    {
+      "email": "paolo@mail.com",
+      "password": "$2a$10$HtH9e4uARDdhUQadea/U1e9N4KiHaYoP1rpXLGFc.GzH8FrGsMAGq",
+      "firstName": "paolo",
+      "lastName": "bianco",
+      "id": 3
+    }
+  ],
+  "movies": []
+}

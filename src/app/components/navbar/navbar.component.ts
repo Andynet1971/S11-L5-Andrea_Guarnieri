@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthorizeService } from '../../authorize/authorize.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -11,7 +12,7 @@ export class NavbarComponent {
 
   isLoggedIn: boolean = false;
 
-  constructor(private authSvc: AuthorizeService) {}
+  constructor(private authSvc: AuthorizeService, private router: Router) {}
 
   ngOnInit() {
     this.authSvc.isLoggedIn$.subscribe(
@@ -20,5 +21,6 @@ export class NavbarComponent {
   }
   logout() {
     this.authSvc.logout();
+    this.router.navigate(['']);
   }
 }

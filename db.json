@@ -22,5 +22,105 @@
       "id": 3
     }
   ],
-  "movies": []
+  "movies_preferiti": [
+    {
+      "userId": 3,
+      "movie": {
+        "id": 3,
+        "title": "Mad Max Fury Road",
+        "link": "https://posters.movieposterdb.com/15_07/2015/1392190/l_1392190_50142848.jpg"
+      },
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 1,
+        "title": "Furiosa",
+        "link": "https://posters.movieposterdb.com/24_01/2024/12037194/s_furiosa-movie-poster_e25bd423.jpg"
+      },
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 5,
+        "title": "Star Wars",
+        "link": "https://posters.movieposterdb.com/15_11/2015/2488496/l_2488496_0dedc25d.jpg"
+      },
+      "id": 3
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Furiosa",
+      "link": "https://posters.movieposterdb.com/24_01/2024/12037194/s_furiosa-movie-poster_e25bd423.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Planet of the Apes",
+      "link": "https://posters.movieposterdb.com/23_11/2024/11389872/l_kingdom-of-the-planet-of-the-apes-movie-poster_6d194455.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mad Max Fury Road",
+      "link": "https://posters.movieposterdb.com/15_07/2015/1392190/l_1392190_50142848.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Dune",
+      "link": "https://posters.movieposterdb.com/24_02/2024/15239678/l_dune-part-two-movie-poster_18c5c05f.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Star Wars",
+      "link": "https://posters.movieposterdb.com/15_11/2015/2488496/l_2488496_0dedc25d.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Avengers",
+      "link": "https://posters.movieposterdb.com/20_10/2012/848228/l_848228_9bc5bc2a.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Pacific Rim",
+      "link": "https://posters.movieposterdb.com/13_05/2013/1663662/l_1663662_6bcc4b29.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Transformer",
+      "link": "https://posters.movieposterdb.com/14_08/2014/2109248/l_2109248_3b42f00a.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Star Trek",
+      "link": "https://posters.movieposterdb.com/09_03/2009/796366/l_796366_c8548420.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Terminator",
+      "link": "https://posters.movieposterdb.com/06_01/1984/0088247/l_80188_0088247_2d534295.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Resident Evil Extinction",
+      "link": "https://posters.movieposterdb.com/07_08/2007/432021/l_432021_ef98ef78.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Matrix",
+      "link": "https://posters.movieposterdb.com/22_10/1999/365467/l_making-the-matrix-movie-poster_5c26f67b.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Ready Player One",
+      "link": "https://posters.movieposterdb.com/20_11/2011/1667443/l_1667443_53d57cb2.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Resident Evil",
+      "link": "https://posters.movieposterdb.com/12_08/2002/120804/l_120804_9b6c2128.jpg"
+    }
+  ]
 }

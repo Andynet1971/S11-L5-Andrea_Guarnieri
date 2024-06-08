@@ -1,1 +1,8 @@
-<h1>home works!</h1>
+<div class="d-flex flex-wrap gap-5 ms-5">
+  <div *ngFor="let movie of movies" class="card" style="width: 18rem">
+    <img src="{{ movie.link }}" class="card-img-top" alt="Locandina Film" />
+    <div class="card-body">
+      <h5 class="card-title">{{ movie.title }}</h5>
+    </div>
+  </div>
+</div>
